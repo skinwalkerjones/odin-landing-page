@@ -10,14 +10,23 @@
     font-family: "Roboto", Arial, sans-serif;
   }
 
-  /* hero sections */
+  a:hover, button:hover {
+    cursor: pointer;
+   }
 
-  .hero {
+  .hero, .footer {
     background-color: #1F2937;
   }
 
   .container1 {
     max-width: 900px;
+  }
+
+  .container2 {
+    max-width: 700px;
+  }
+
+  .container1, .container2 {
     margin: auto;
     padding-bottom: 100px
   }
@@ -32,40 +41,37 @@
     padding: 8px 0;
   }
 
-  /* hero content */
-  .top h2 {
+  .hero h1, button, .text {
     color: #F9FAF8;
-    font-size: 24px;
-    
-  }
-  .bottom .text {
-    color: #FFFFFF;
   }
 
-  .text h1 {
+  .top h1 {
+    font-size: 24px;
+  } 
+  
+  .bottom h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
   }
 
-  ul {
+  .hero ul {
     list-style-type: none;
     display: flex;
   }
 
-  a {
+  .hero a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
   }
 
-  .text p {
+  .bottom p {
     color: #E5E7EB;
     font-size: 18px;
     padding-bottom: 10px;
   }
 
-  li {
+  .hero li {
     padding: 0 8px;
   }
 
@@ -77,25 +83,11 @@
   }
 
   button {
-    color: #F9FAF8;
     background-color: #3882f6;
     padding: 6px 24px;
     border-radius: 5px;
     border: 0;
   }
-
- /* first section after hero */
-
- /* sections */
-
- .container2 {
-    max-width: 700px;
-    margin: auto;
-    padding-bottom: 100px;
-    
- }
-
- /* content */
 
 .container2 h1 {
     color: #1F2937;
@@ -116,7 +108,7 @@
 
  .blank-img {
     padding: 70px;
-    border: 3px solid #3882f6;
+    border: 2px solid #3882f6;
     border-radius: 8px;
     width: 0;
     margin-bottom: 6px;
@@ -125,8 +117,6 @@
  figcaption {
     text-align: center;
  }
-
- /* section 2 (quote) */
 
 .second {
     background-color: #E5E7EB;
@@ -148,8 +138,6 @@
     margin-right: 50px;
 }
 
-/* section 3 */
-
 #cta {
     padding-bottom: 0;
     margin: 100px auto;
@@ -160,7 +148,7 @@
     gap: 100px
 }
 
-.third h4 {
+.third h1 {
    color: #F9FAF8;
    font-weight: 700;
 }
@@ -171,10 +159,9 @@
 }
 
 .third button {
+    margin-top: 10px;
     border: 1px solid white;
 }
-
-/* footer */
 
 .footer h1 {
    color: #F9FAF8;
@@ -184,7 +171,6 @@
 }
 
 .footer {
-    background-color: #1F2937;
     padding: 50px;
 }
 
